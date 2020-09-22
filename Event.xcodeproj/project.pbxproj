@@ -16,6 +16,10 @@
 		8496432825189578001CEB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496432725189578001CEB61 /* main.m */; };
 		8496433225189579001CEB61 /* EventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496433125189579001CEB61 /* EventTests.m */; };
 		8496433D25189579001CEB61 /* EventUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496433C25189579001CEB61 /* EventUITests.m */; };
+		8496434F25189E68001CEB61 /* PinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496434E25189E68001CEB61 /* PinkView.m */; };
+		8496435525189E77001CEB61 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496435425189E77001CEB61 /* YellowView.m */; };
+		8496435B2518A031001CEB61 /* NormalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496435A2518A031001CEB61 /* NormalView.m */; };
+		849643612518AA49001CEB61 /* EVButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 849643602518AA49001CEB61 /* EVButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		8496433825189579001CEB61 /* EventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496433C25189579001CEB61 /* EventUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventUITests.m; sourceTree = "<group>"; };
 		8496433E25189579001CEB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8496434D25189E68001CEB61 /* PinkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkView.h; sourceTree = "<group>"; };
+		8496434E25189E68001CEB61 /* PinkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkView.m; sourceTree = "<group>"; };
+		8496435325189E77001CEB61 /* YellowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		8496435425189E77001CEB61 /* YellowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
+		849643592518A031001CEB61 /* NormalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalView.h; sourceTree = "<group>"; };
+		8496435A2518A031001CEB61 /* NormalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalView.m; sourceTree = "<group>"; };
+		8496435F2518AA49001CEB61 /* EVButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVButton.h; sourceTree = "<group>"; };
+		849643602518AA49001CEB61 /* EVButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				8496431925189575001CEB61 /* SceneDelegate.m */,
 				8496431B25189575001CEB61 /* ViewController.h */,
 				8496431C25189575001CEB61 /* ViewController.m */,
+				849643592518A031001CEB61 /* NormalView.h */,
+				8496435A2518A031001CEB61 /* NormalView.m */,
+				8496434D25189E68001CEB61 /* PinkView.h */,
+				8496434E25189E68001CEB61 /* PinkView.m */,
+				8496435325189E77001CEB61 /* YellowView.h */,
+				8496435425189E77001CEB61 /* YellowView.m */,
+				8496435F2518AA49001CEB61 /* EVButton.h */,
+				849643602518AA49001CEB61 /* EVButton.m */,
 				8496431E25189575001CEB61 /* Main.storyboard */,
 				8496432125189578001CEB61 /* Assets.xcassets */,
 				8496432325189578001CEB61 /* LaunchScreen.storyboard */,
@@ -269,6 +289,10 @@
 				8496431D25189575001CEB61 /* ViewController.m in Sources */,
 				8496431725189575001CEB61 /* AppDelegate.m in Sources */,
 				8496432825189578001CEB61 /* main.m in Sources */,
+				8496435B2518A031001CEB61 /* NormalView.m in Sources */,
+				849643612518AA49001CEB61 /* EVButton.m in Sources */,
+				8496434F25189E68001CEB61 /* PinkView.m in Sources */,
+				8496435525189E77001CEB61 /* YellowView.m in Sources */,
 				8496431A25189575001CEB61 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

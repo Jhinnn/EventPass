@@ -6,8 +6,12 @@
 //
 
 #import "ViewController.h"
-
+#import "PinkView.h"
+#import "YellowView.h"
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet YellowView *yellowV;
+@property (weak, nonatomic) IBOutlet PinkView *pinkV;
 
 @end
 
@@ -16,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.pinkV.viewsss = self.yellowV;
+    
 }
 
 
